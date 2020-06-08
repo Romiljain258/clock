@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="clock.css">
+    <title>clock</title>
+  </head>
+  <body>
+    <h1 style="color : rgb(192, 192, 192); size:20px;text-align:center;top : 20">Analog clock</h1>
+    <div class="clock">
+    <div class="clock-container">
+      <svg height="300" width="300" class="figure-container">
+        <!-- Head -->
+        <circle cx="140" cy="140" r="110" class="figure-part"></circle>
+      </svg>
+      
+        <div class="hand hour" data-hour-hand></div>
+        <div class="hand minute" data-minute-hand></div>
+        <div class="hand second" data-second-hand></div>
+    </div>
+    </div>
+     <script src="./clock.js"></script>
+  </body>
+</html>
